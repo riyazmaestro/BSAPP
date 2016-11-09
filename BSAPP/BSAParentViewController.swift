@@ -1,24 +1,22 @@
 //
-//  BSALoginViewController.swift
+//  BSAParentViewController.swift
 //  BSAPP
 //
-//  Created by Riyaz Mohammed on 07/11/16.
+//  Created by Riyaz Mohammed on 09/11/16.
 //  Copyright © 2016 Riyaz Mohammed. All rights reserved.
 //
 
-
 import UIKit
 
-class BSALoginViewController:BSAParentViewController  {
+class BSAParentViewController: UIViewController {
 
-    override func viewDidLoad()
-    {
+    override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning()
-    {
+    override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }

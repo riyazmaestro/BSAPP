@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FourthViewController: BSAViewController {
+class FourthViewController: BSAPatentTableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

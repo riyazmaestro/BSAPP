@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BSABookRequestViewController: BSAViewController {
+class BSABookRequestViewController: BSAParentViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

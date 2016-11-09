@@ -105,7 +105,7 @@
         <!--Navigation Controller-->
         <scene sceneID="XhM-Ui-4OG">
             <objects>
-                <navigationController id="tnc-t5-6C6" sceneMemberID="viewController">
+                <navigationController id="tnc-t5-6C6" customClass="BSANavigationController" customModule="BSAPP" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="l3F-io-h6T">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -121,7 +121,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
-                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                <tabBarController extendedLayoutIncludesOpaqueBars="YES" id="49e-Tb-3d3" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="5eL-7F-63p"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
@@ -132,8 +132,8 @@
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
-                        <segue destination="kXQ-Kv-r0q" kind="relationship" relationship="viewControllers" id="qnk-On-hsq"/>
                         <segue destination="4CC-Ae-l5a" kind="relationship" relationship="viewControllers" id="3gE-oS-FUB"/>
+                        <segue destination="kXQ-Kv-r0q" kind="relationship" relationship="viewControllers" id="qnk-On-hsq"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>

@@ -1,25 +1,30 @@
 //
-//  BSAViewController.swift
+//  UINavigationController+Additions.swift
 //  BSAPP
 //
-//  Created by Riyaz Mohammed on 07/11/16.
+//  Created by Riyaz Mohammed on 09/11/16.
 //  Copyright © 2016 Riyaz Mohammed. All rights reserved.
 //
 
 import UIKit
 
-class BSAViewController: UIViewController {
+extension UINavigationController {
 
-    override func viewDidLoad() {
+     open override func viewDidLoad()
+     {
+        self.navigationBar.isTranslucent = false;
+        self.tabBarController?.tabBar.isTranslucent = false;
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
+     open override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    
     
 
     /*

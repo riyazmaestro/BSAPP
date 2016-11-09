@@ -10,7 +10,6 @@
 		710FCDDC1DD0903900B13264 /* BSAListingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710FCDDB1DD0903900B13264 /* BSAListingCell.swift */; };
 		710FCDDE1DD0906E00B13264 /* BSAUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710FCDDD1DD0906E00B13264 /* BSAUserViewController.swift */; };
 		710FCDE01DD0907D00B13264 /* BSALoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710FCDDF1DD0907D00B13264 /* BSALoginViewController.swift */; };
-		710FCDE21DD0909200B13264 /* BSAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710FCDE11DD0909200B13264 /* BSAViewController.swift */; };
 		710FCDE41DD091E900B13264 /* BSABookRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710FCDE31DD091E900B13264 /* BSABookRequestViewController.swift */; };
 		710FCDE61DD0924B00B13264 /* BSAUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710FCDE51DD0924B00B13264 /* BSAUserView.swift */; };
 		710FCDEE1DD0A20500B13264 /* BSAUIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710FCDED1DD0A20500B13264 /* BSAUIConstants.swift */; };
@@ -27,6 +26,9 @@
 		718678701DD05D9E00660387 /* BSAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7186786F1DD05D9E00660387 /* BSAPPUITests.swift */; };
 		7186787E1DD05FBC00660387 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7186787D1DD05FBC00660387 /* ThirdViewController.swift */; };
 		718678801DD05FCA00660387 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7186787F1DD05FCA00660387 /* FourthViewController.swift */; };
+		71CF02361DD388A100195AFC /* UINavigationController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CF02351DD388A100195AFC /* UINavigationController+Additions.swift */; };
+		71CF02381DD38E0500195AFC /* BSAParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CF02371DD38E0500195AFC /* BSAParentViewController.swift */; };
+		71CF023A1DD38E3C00195AFC /* BSAPatentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CF02391DD38E3C00195AFC /* BSAPatentTableViewController.swift */; };
 		71D4F0B41DD304550078A8EF /* BSABookViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D4F0B31DD304550078A8EF /* BSABookViewView.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,7 +53,6 @@
 		710FCDDB1DD0903900B13264 /* BSAListingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSAListingCell.swift; sourceTree = "<group>"; };
 		710FCDDD1DD0906E00B13264 /* BSAUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSAUserViewController.swift; sourceTree = "<group>"; };
 		710FCDDF1DD0907D00B13264 /* BSALoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSALoginViewController.swift; sourceTree = "<group>"; };
-		710FCDE11DD0909200B13264 /* BSAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSAViewController.swift; sourceTree = "<group>"; };
 		710FCDE31DD091E900B13264 /* BSABookRequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSABookRequestViewController.swift; sourceTree = "<group>"; };
 		710FCDE51DD0924B00B13264 /* BSAUserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSAUserView.swift; path = ../BSAUserView.swift; sourceTree = "<group>"; };
 		710FCDED1DD0A20500B13264 /* BSAUIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSAUIConstants.swift; sourceTree = "<group>"; };
@@ -74,6 +75,9 @@
 		718678711DD05D9E00660387 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7186787D1DD05FBC00660387 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		7186787F1DD05FCA00660387 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		71CF02351DD388A100195AFC /* UINavigationController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Additions.swift"; sourceTree = "<group>"; };
+		71CF02371DD38E0500195AFC /* BSAParentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSAParentViewController.swift; sourceTree = "<group>"; };
+		71CF02391DD38E3C00195AFC /* BSAPatentTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSAPatentTableViewController.swift; sourceTree = "<group>"; };
 		71D4F0B31DD304550078A8EF /* BSABookViewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSABookViewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -140,6 +144,9 @@
 		710FCDEC1DD093E300B13264 /* General */ = {
 			isa = PBXGroup;
 			children = (
+				71CF02371DD38E0500195AFC /* BSAParentViewController.swift */,
+				71CF02391DD38E3C00195AFC /* BSAPatentTableViewController.swift */,
+				71CF02351DD388A100195AFC /* UINavigationController+Additions.swift */,
 				710FCDED1DD0A20500B13264 /* BSAUIConstants.swift */,
 				7186784F1DD05D9D00660387 /* FirstViewController.swift */,
 				718678511DD05D9D00660387 /* SecondViewController.swift */,
@@ -147,7 +154,6 @@
 				7186787F1DD05FCA00660387 /* FourthViewController.swift */,
 				710FCDE31DD091E900B13264 /* BSABookRequestViewController.swift */,
 				710FCDDF1DD0907D00B13264 /* BSALoginViewController.swift */,
-				710FCDE11DD0909200B13264 /* BSAViewController.swift */,
 				710FCDDB1DD0903900B13264 /* BSAListingCell.swift */,
 				71D4F0B31DD304550078A8EF /* BSABookViewView.swift */,
 			);
@@ -346,15 +352,17 @@
 			files = (
 				718678521DD05D9D00660387 /* SecondViewController.swift in Sources */,
 				710FCDF21DD0AF9300B13264 /* BSAQuote.swift in Sources */,
-				710FCDE21DD0909200B13264 /* BSAViewController.swift in Sources */,
 				710FCDDC1DD0903900B13264 /* BSAListingCell.swift in Sources */,
 				7186784E1DD05D9D00660387 /* AppDelegate.swift in Sources */,
+				71CF023A1DD38E3C00195AFC /* BSAPatentTableViewController.swift in Sources */,
 				7186787E1DD05FBC00660387 /* ThirdViewController.swift in Sources */,
 				718678501DD05D9D00660387 /* FirstViewController.swift in Sources */,
 				71D4F0B41DD304550078A8EF /* BSABookViewView.swift in Sources */,
 				710FCDE01DD0907D00B13264 /* BSALoginViewController.swift in Sources */,
 				718678801DD05FCA00660387 /* FourthViewController.swift in Sources */,
 				710FCDF01DD0AACA00B13264 /* BSAUser.swift in Sources */,
+				71CF02381DD38E0500195AFC /* BSAParentViewController.swift in Sources */,
+				71CF02361DD388A100195AFC /* UINavigationController+Additions.swift in Sources */,
 				710FCDEE1DD0A20500B13264 /* BSAUIConstants.swift in Sources */,
 				710FCDE61DD0924B00B13264 /* BSAUserView.swift in Sources */,
 				710FCDE41DD091E900B13264 /* BSABookRequestViewController.swift in Sources */,

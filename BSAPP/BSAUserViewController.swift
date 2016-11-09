@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BSAUserViewController: BSAViewController {
+class BSAUserViewController: BSAParentViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

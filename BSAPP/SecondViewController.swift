@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: BSAViewController ,UITableViewDelegate,UITableViewDataSource
+class SecondViewController: BSAPatentTableViewController 
 {
     
     
@@ -34,9 +34,11 @@ class SecondViewController: BSAViewController ,UITableViewDelegate,UITableViewDa
         
         tableView.backgroundColor = UIColor.brown;
         
-        
         self.view .addSubview(tableView);
-        
+        self.edgesForExtendedLayout = .bottom;
+        tableView.contentInset = UIEdgeInsetsMake((self.navigationController?.navigationBar.frame.size.height)!, 0, (self.tabBarController?.tabBar.frame.size.height)!, 0);
+
+            
         
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -45,9 +47,11 @@ class SecondViewController: BSAViewController ,UITableViewDelegate,UITableViewDa
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
+        
         return 5;
+        
     }
 //    func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat
 //    {
@@ -57,7 +61,7 @@ class SecondViewController: BSAViewController ,UITableViewDelegate,UITableViewDa
         
         return UITableViewAutomaticDimension;
     }
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
         
       var cell : UITableViewCell! = tableView .dequeueReusableCell(withIdentifier: "cell")
