@@ -68,12 +68,10 @@ class SecondViewController: BSAViewController ,UITableViewDelegate,UITableViewDa
             let localCell :BSAListingCell = BSAListingCell(style: .subtitle, reuseIdentifier:"cell");
      
             localCell .constrct();
-            
             cell = localCell;
         }
         let book : BSABook = BSABook(isbn:"row#\(indexPath.row)" as NSString);
-         (cell as! BSAListingCell).book = book;
-        (cell as! BSAListingCell) .refresh()
+        (cell as! BSAListingCell) .refresh(book: book)
         
         
         return cell;

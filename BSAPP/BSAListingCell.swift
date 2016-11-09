@@ -11,7 +11,7 @@ import UIKit
 class BSAListingCell: UITableViewCell  {
 
     
-    public var book : BSABook! ;
+//    public var book : BSABook! ;
 
     var bookView : BSABookView!;
 
@@ -51,11 +51,11 @@ class BSAListingCell: UITableViewCell  {
         }
     
  
-    public func refresh()
+    public func refresh(book : BSABook)
     {
         bookView.backgroundColor = UIColor.blue;
-        bookView.book = self.book;
-         bookView .refresh();
+        bookView.book = book;
+        bookView.refresh();
         
     }
   
